@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Controle de estoque</title>
+        <link rel="stylesheet" href="css/principal.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <!-- Menu de Produtos -->
+                    <li class="menu">
+                        <a href="#">Produtos</a>
+                        <ul class="submenu">
+                        <li><a href="#">Cadastrar Produto</a></li>
+                        <li><a href="#">Listar Produtos</a></li>
+                        <li><a href="#">Editar Produto</a></li>
+                        <li><a href="#">Excluir Produto</a></li>
+                        </ul>
+                    </li>
+                    teste
+                    <!-- Menu estoque -->
+                    <li class="menu">
+                        <a href="#">Estoque</a>
+                        <ul class="submenu">
+                            <li><a href="#">Entrada de produtos</a></li>
+                            <li><a href="#">Saída de produtos</a></li>
+                            <li><a href="#">Estoque atual</a></li>
+                            <li><a href="#">Produtos abaixo do mínimo</a></li>
+                        </ul>
+                    </li>
+                    <!-- Menu de relatórios -->
+                    <li class="menu">
+                        <a href="#">Relatórios</a>
+                        <ul class="submenu">
+                            <li><a href="#">Histórico de entradas</a></li>
+                            <li><a href="#">Histórico de saídas</a></li>
+                            <li><a href="#">Relatório de estoque atual(detalhado)</a></li>
+                            <li><a href="#">Relatório de produtos abaixo do mínimo</a></li>
+                        </ul>
+                    </li>
+                    <!-- Menu fornecedores -->
+                    <li class="menu">
+                        <a href="#">Fornecedores</a>
+                        <ul class="submenu">
+                            <li><a href="#">Cadastrar fornecedor</a></li>
+                            <li><a href="#">Listar fornecedores</a></li>
+                        </ul>
+                    </li>
+                    <!-- Menu de usuários -->
+                    <li class="menu">
+                        <a href="#">Usuários</a>
+                        <ul class="submenu">
+                            <li><a href="#">Gerenciar usuários</a></li>
+                            <li><a href="#">Alterar senha</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-sair"><a href="#">Sair</a></li>
+                </ul>
+                <div class="user-info">
+                    Olá, <span id="nome-usuario"></span>!
+                </div>
+            </nav>
+        </header>
+         <div id="main-content" class="conteudo" style="display: none;">
+            <h1>Painel de Controle</h1>
+            <p>Bem-vindo ao sistema de controle de estoque!</p>
+        </div>
+    </body>
+      <script src="js/script_index.js"></script>
+</html>
+
