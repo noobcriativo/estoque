@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+    <head>
 
-<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login - Controle de Estoque</title>
+        <link rel="stylesheet" href="css/style.css" loading="lazy">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+    rel='stylesheet'> 
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Controle de Estoque</title>
-    <link rel="stylesheet" href="css/style.css" loading="lazy">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
-rel='stylesheet'> 
-
-</head>
-<body>
-    <main class="container">
-        <h2>Login</h2>
-        <div id="login-error" class="error-message" style="display: none;"></div>
-        <form id="login-form">
-            <div class="form-group">
-                <label for="username">  <i class="bx bxs-user"></i>
-Usuário:</label>
-                <input placeholder="Usuário" type="text" id="username" name="username" required>
+    </head>
+    <body>
+        <main class="container">
+            <div class="box">
+                <h2>Login</h2>
+                <div id="login-error" class="error-message" style="display: none;"></div>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="username">
+                            <i class="bx bxs-user"></i>Usuário:
+                        </label>
+                        <input placeholder="Usuário" type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">
+                            <i class="bx bxs-lock-alt"></i>Senha:
+                        </label>
+                        <input placeholder="Senha" type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit">Entrar</button>
+                </form>
+                <p>Ainda não tem uma conta? <a href="registrar.html">Registre-se</a></p>
             </div>
-            <div class="form-group">
-                <label for="password"><i class="bx bxs-lock-alt"></i>
- Senha:</label>
-                <input placeholder="Senha" type="password" id="password" name="password" required>
-            </div>
-            <button type="submit">Entrar</button>
-        </form>
-        <p>Ainda não tem uma conta? <a href="registrar.html">Registre-se</a></p>
-    </main>
-    <script src="js/script_login.js"></script>
-</body>
+        </main>
+        <script src="js/script_login.js"></script>
+    </body>
 </html>
